@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button"
 import { ArrowLeft, Facebook, Fish, Globe, Instagram, Twitter, Youtube } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { LeaderboardTable } from "@/components/leaderboard/leaderboard-table"
-import { UserProfile } from "@/components/auth/user-profile"
 
 export default function LeaderboardPage() {
   return (
@@ -63,7 +62,7 @@ export default function LeaderboardPage() {
           </div>
           <div className="flex flex-1 items-center justify-end space-x-4">
             <ThemeToggle />
-            <UserProfile />
+    
           </div>
         </div>
       </header>

@@ -51,6 +51,14 @@ export function PillHeader() {
               <Link href="/support-us" className="flex items-center text-xs font-medium text-white/90 hover:text-white">
                 Support Us
               </Link>
+<Link href="/quizzes" className="flex items-center text-xs font-medium text-white/90 hover:text-white">
+                Quizz
+              </Link>
+
+<Link href="/models" className="flex items-center text-xs font-medium text-white/90 hover:text-white">
+                3D Models
+              </Link>
+
             </nav>
           </div>
           <div className="flex items-center gap-2">
