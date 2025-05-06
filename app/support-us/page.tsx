@@ -79,7 +79,7 @@ export default function SupportUsPage() {
                 </div>
               </div>
               <Image
-                src="/placeholder.svg?height=550&width=550"
+                src="/s.jpg"
                 width={550}
                 height={550}
                 alt="Coral Reef Support"
@@ -117,7 +117,7 @@ export default function SupportUsPage() {
                 <Button className="mt-4">Contact Our Partnership Team</Button>
               </div>
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/s1.jpg"
                 width={400}
                 height={400}
                 alt="Corporate Partnership"

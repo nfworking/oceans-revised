@@ -29,15 +29,13 @@ export function MatchingQuestion({ question, onAnswer }: MatchingQuestionProps) 
   const descriptions = Object.values(correctMatches)
 
   const handleSubmit = () => {
-    // Check if all items have been matched
-    if (Object.keys(matches).length !== items.length) return
+    if (Object.keys(matches).length !== items.length) return;
 
-    // Check if all matches are correct
-    const allCorrect = items.every((item) => matches[item] === correctMatches[item])
-    setIsCorrect(allCorrect)
-    setHasSubmitted(true)
-    onAnswer(allCorrect)
-  }
+    const allCorrect = items.every((item) => matches[item] === correctMatches[item]);
+    setIsCorrect(allCorrect);
+    setHasSubmitted(true);
+    onAnswer(allCorrect);
+  };
 
   const handleSelectChange = (item: string, description: string) => {
     setMatches((prev) => ({

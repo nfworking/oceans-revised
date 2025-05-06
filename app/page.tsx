@@ -62,7 +62,7 @@ export default function LandingPage() {
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 md:grid-cols-2">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/home1.png"
                 width={400}
                 height={400}
                 alt="Coral Restoration"
@@ -118,7 +118,7 @@ export default function LandingPage() {
                 </Button>
               </div>
               <Image
-                src="/placeholder.svg?height=300&width=500"
+                src="/home2.webp"
                 width={500}
                 height={300}
                 alt="Coral Restoration Work"
@@ -144,7 +144,7 @@ export default function LandingPage() {
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 md:grid-cols-2">
               <Image
-                src="/placeholder.svg?height=300&width=500"
+                src="/home3.avif"
                 width={500}
                 height={300}
                 alt="Coral Reef Conservation"
@@ -194,7 +194,7 @@ export default function LandingPage() {
                 </Button>
               </div>
               <Image
-                src="/placeholder.svg?height=300&width=500"
+                src="/home4.jpg"
                 width={500}
                 height={300}
                 alt="Coral Reef Support"
@@ -220,7 +220,7 @@ export default function LandingPage() {
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 md:grid-cols-2">
               <Image
-                src="/placeholder.svg?height=300&width=500"
+                src="/home5.jpg"
                 width={500}
                 height={300}
                 alt="3D Models Preview"

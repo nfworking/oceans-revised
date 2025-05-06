@@ -79,7 +79,7 @@ export default function InitiativesPage() {
                 </div>
               </div>
               <Image
-                src="/placeholder.svg?height=550&width=550"
+                src="/home2.webp"
                 width={550}
                 height={550}
                 alt="Coral Reef Initiatives"
@@ -153,7 +153,7 @@ export default function InitiativesPage() {
           <div className="container px-4 md:px-6">
             <div className="mx-auto grid max-w-5xl items-center gap-6 md:grid-cols-2">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/home4.jpg"
                 width={400}
                 height={400}
                 alt="Coral Restoration"
@@ -198,7 +198,7 @@ export default function InitiativesPage() {
                 </ul>
               </div>
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/sci1.jpg"
                 width={400}
                 height={400}
                 alt="Scientific Research"
@@ -213,7 +213,7 @@ export default function InitiativesPage() {
           <div className="container px-4 md:px-6">
             <div className="mx-auto grid max-w-5xl items-center gap-6 md:grid-cols-2">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/sci2.jpg"
                 width={400}
                 height={400}
                 alt="Education Programs"
@@ -260,7 +260,7 @@ export default function InitiativesPage() {
                 </ul>
               </div>
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/pro1.jpg"
                 width={400}
                 height={400}
                 alt="Policy Advocacy"
@@ -301,7 +301,7 @@ export default function InitiativesPage() {
                 </Button>
               </div>
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/vol.jpg"
                 width={400}
                 height={400}
                 alt="Volunteers"

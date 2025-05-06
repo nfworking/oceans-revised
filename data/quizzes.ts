@@ -6,7 +6,7 @@ export const quizzes: Quiz[] = [
     title: "Coral Reef Basics",
     description: "Test your knowledge about coral reefs and their importance to our oceans.",
     difficulty: "easy",
-    imageUrl: "/placeholder.svg?height=300&width=500",
+    imageUrl: "/firstquizz.jpg",
     questions: [
       {
         id: "basics-1",
@@ -80,7 +80,7 @@ export const quizzes: Quiz[] = [
     title: "Threats to Coral Reefs",
     description: "Learn about the dangers facing coral reefs around the world.",
     difficulty: "medium",
-    imageUrl: "/placeholder.svg?height=300&width=500",
+    imageUrl: "/secondquizz.jpg",
     questions: [
       {
         id: "threats-1",
@@ -134,7 +134,7 @@ export const quizzes: Quiz[] = [
     title: "Coral Reef Ecosystem",
     description: "Match marine species with their roles in the coral reef ecosystem.",
     difficulty: "medium",
-    imageUrl: "/placeholder.svg?height=300&width=500",
+    imageUrl: "/q.png",
     questions: [
       {
         id: "ecosystem-1",
@@ -158,7 +158,7 @@ export const quizzes: Quiz[] = [
     title: "Conservation Actions",
     description: "What would you do in these coral reef conservation scenarios?",
     difficulty: "hard",
-    imageUrl: "/placeholder.svg?height=300&width=500",
+    imageUrl: "/q2.jpg",
     questions: [
       {
         id: "actions-1",

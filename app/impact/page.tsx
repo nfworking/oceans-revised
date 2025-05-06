@@ -76,7 +76,7 @@ export default function ImpactPage() {
                 </div>
               </div>
               <Image
-                src="/placeholder.svg?height=550&width=550"
+                src="/ini1.jpg"
                 width={550}
                 height={550}
                 alt="Coral Reef Impact"
@@ -191,7 +191,7 @@ export default function ImpactPage() {
             <div className="mx-auto max-w-5xl py-12">
               <div className="grid gap-6 md:grid-cols-2">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/ini2.jpg"
                   width={600}
                   height={400}
                   alt="Belize Barrier Reef"
@@ -238,7 +238,7 @@ export default function ImpactPage() {
                   <Button variant="outline">Read Full Case Study</Button>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/ini3.jpg"
                   width={600}
                   height={400}
                   alt="Great Barrier Reef"
@@ -251,7 +251,7 @@ export default function ImpactPage() {
             <div className="mx-auto max-w-5xl py-12 border-t">
               <div className="grid gap-6 md:grid-cols-2">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/ini4.webp"
                   width={600}
                   height={400}
                   alt="Indonesia Community Program"

@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import type { QuizQuestion } from "@/types/quiz"
 import { Button } from "@/components/ui/button"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
@@ -13,15 +13,18 @@ interface ScenarioQuestionProps {
 }
 
 export function ScenarioQuestion({ question, onAnswer }: ScenarioQuestionProps) {
-  const [selectedOption, setSelectedOption] = useState<string | null>(null)
-  const [hasSubmitted, setHasSubmitted] = useState(false)
-  const isCorrect = selectedOption === question.correctAnswer
+  const [selectedOption, setSelectedOption] = useState<string | null>(null);
+  const [hasSubmitted, setHasSubmitted] = useState(false);
 
-  const handleSubmit = () => {
-    if (!selectedOption) return
-    setHasSubmitted(true)
-    onAnswer(isCorrect)
-  }
+  useEffect(() => {
+    setSelectedOption(null);
+    setHasSubmitted(false);
+  }, [question]);
+const handleSubmit = () => {
+    if (!selectedOption) return;
+    setHasSubmitted(true);
+    onAnswer(selectedOption === question.correctAnswer);
+  };
 
   return (
     <div className="space-y-4">

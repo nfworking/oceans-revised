@@ -18,10 +18,11 @@ export function MultipleChoiceQuestion({ question, onAnswer }: MultipleChoiceQue
   const isCorrect = selectedOption === question.correctAnswer
 
   const handleSubmit = () => {
-    if (!selectedOption) return
-    setHasSubmitted(true)
-    onAnswer(isCorrect)
-  }
+    if (!selectedOption) return;
+    setHasSubmitted(true);
+    console.log(`Submitting answer for question: ${question.id}, isCorrect: ${selectedOption === question.correctAnswer}`);
+    onAnswer(selectedOption === question.correctAnswer);
+  };
 
   return (
     <div className="space-y-4">

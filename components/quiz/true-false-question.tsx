@@ -16,10 +16,10 @@ export function TrueFalseQuestion({ question, onAnswer }: TrueFalseQuestionProps
   const isCorrect = selectedOption === question.correctAnswer
 
   const handleSubmit = () => {
-    if (!selectedOption) return
-    setHasSubmitted(true)
-    onAnswer(isCorrect)
-  }
+    if (!selectedOption) return;
+    setHasSubmitted(true);
+    onAnswer(selectedOption === question.correctAnswer);
+  };
 
   return (
     <div className="space-y-4">

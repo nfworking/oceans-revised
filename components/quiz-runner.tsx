@@ -34,10 +34,12 @@ export function QuizRunner({ quiz }: QuizRunnerProps) {
   const isLastQuestion = currentQuestionIndex === quiz.questions.length - 1
 
   const handleAnswer = (isCorrect: boolean) => {
-    const newAnswers = [...answers]
-    newAnswers[currentQuestionIndex] = isCorrect
-    setAnswers(newAnswers)
-  }
+    setAnswers((prevAnswers) => {
+      const updatedAnswers = [...prevAnswers];
+      updatedAnswers[currentQuestionIndex] = isCorrect;
+      return updatedAnswers;
+    });
+  };
 
   const handleNext = () => {
     if (isLastQuestion) {
