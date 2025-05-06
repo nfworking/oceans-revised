@@ -6,7 +6,7 @@ export const models: Model3D[] = [
     name: "Staghorn Coral",
     description:
       "Staghorn coral (Acropora cervicornis) is a critically endangered species of coral characterized by its antler-like branches. It's one of the most important reef-building corals in the Caribbean.",
-    modelUrl: "/models/staghorn-coral.glb",
+    modelUrl: "/models/model1.glb",
     thumbnail: "/placeholder.svg?height=300&width=300",
     scale: 2.5,
     position: [0, 0, 0],
